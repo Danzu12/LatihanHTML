@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    /*grid-template-columns: 200px 200px 200px;*/
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+grid-template-columns: repeat(auto-fit, minimax(200px, 1 fr));
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+}
+
+.container>div {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid rgb(135, 208, 233);
+    border-radius: 5px;
+    background-color: rgb(255, 6, 164);
+    padding: 1em;
+    color: azure;
+}
+
+.item1 {
+    grid-column: 1 / 3;
+    /* membentang dari kolom 1 sampai 3 */
+}
