@@ -1,0 +1,13 @@
+#judul {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+#kotak-utama {
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    border 2px solid black;
+    padding: 20px;
+}
